@@ -555,9 +555,6 @@
           right = pagesInDOM - 1;
         }
 
-        return [page,page]
-
-
         return [
           Math.max(1, view[0] - left),
           Math.min(data.totalPages, view[1] + right),
