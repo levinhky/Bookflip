@@ -555,10 +555,12 @@
           right = pagesInDOM - 1;
         }
 
-        return [
-          Math.max(1, view[0] - left),
-          Math.min(data.totalPages, view[1] + right),
-        ];
+        return [1,1]
+
+        // return [
+        //   Math.max(1, view[0] - left),
+        //   Math.min(data.totalPages, view[1] + right),
+        // ];
       },
 
       // Detects if a page is within the range of `pagesInDOM` from the current view
